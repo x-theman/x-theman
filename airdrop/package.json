@@ -1,0 +1,13 @@
+{
+  "name": "airdrop-site",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "generate": "node scripts/generate-claims.mjs data/allocations.csv",
+    "serve": "npx --yes serve ."
+  },
+  "devDependencies": {
+    "@openzeppelin/merkle-tree": "^1.0.7",
+    "ethers": "^6.7.0"
+  }
+}
